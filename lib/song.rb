@@ -1,4 +1,6 @@
 require_relative '../lib/concerns/memorable_module.rb'
+require_relative '../lib/concerns/paramable'
+
 require 'pry'
 
 class Song
