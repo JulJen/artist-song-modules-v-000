@@ -1,9 +1,9 @@
-# require_relative '../lib/concerns/memorable_module.rb'
-# require_relative '../lib/concerns/paramable'
+require_relative '../lib/concerns/memorable_module.rb'
+require_relative '../lib/concerns/paramable.rb'
 
 require 'pry'
 
-class Artist 
+class Artist
 
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
