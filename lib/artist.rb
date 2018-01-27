@@ -20,7 +20,8 @@ class Artist
   # end
 
   def initialize
-    @@artists << self
+    super
+    # @@artists << self
     @songs = []
   end
 
